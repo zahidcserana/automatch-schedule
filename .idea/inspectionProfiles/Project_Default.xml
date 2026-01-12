@@ -1,0 +1,21 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="PyPackageRequirementsInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredPackages">
+        <list>
+          <option value="boto3" />
+          <option value="botocore" />
+          <option value="django-auditlog" />
+          <option value="django-soft-delete" />
+          <option value="jmespath" />
+          <option value="django-redis" />
+          <option value="s3transfer" />
+          <option value="firebase-admin" />
+          <option value="PyMuPDF" />
+          <option value="django-dirtyfields" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
