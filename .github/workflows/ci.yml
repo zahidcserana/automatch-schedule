@@ -19,7 +19,7 @@ jobs:
         run: docker login -u $DOCKER_USERNAME -p $DOCKER_PASSWORD
 
       - name: Build the Docker image
-        run: docker build -t automatch-schedule .
+        run: docker build -t zahidcse/automatch-schedule:latest .
       - name: Push to Dockerhub
         run: docker push zahidcse/automatch-schedule:latest
 
